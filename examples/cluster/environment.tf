@@ -8,6 +8,6 @@ data "terraform_remote_state" "environment" {
   config = {
     bucket = "cookpad-terraform-aws-eks-testing"
     key    = "test-environment"
-    region = "us-east-1"
+    region = "us-east-2"
   }
 }
